@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class AirResistance : MonoBehaviour
+public class Air : MonoBehaviour
 {
     public Rigidbody rb;
     public float enginePowerThrust, liftBooster, drag, angularDrag;
